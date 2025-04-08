@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /path/to/project/on/EC2 
+cd /home/ec2-user/node-hello
 git pull origin master
 npm install &&
 npm run build &&
